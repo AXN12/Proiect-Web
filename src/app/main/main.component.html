@@ -1,0 +1,107 @@
+<header >
+	<h1>AXN SERVICE AUTO</h1>
+</header>
+
+
+ 
+<section >
+ 
+  <nav>
+    <ul class="menu">
+      <li><a routerLink="/">Acasa</a></li>
+      <li><a href="#">Programare</a></li>
+      <li><a a routerLink="/About" routerLinkActive="active">Contact</a></li>
+      <li><a a routerLink="/servicii" >Servicii</a></li>
+
+    </ul>
+  </nav>
+
+  <h1>Formular de programare</h1>
+  
+	<form>
+		<label for="nume">Nume:</label><br>
+		<input type="text" id="nume" name="nume"><br>
+
+		<label for="telefon">Telefon:</label><br>
+		<input type="tel" id="telefon" name="telefon"><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br>
+
+		<label for="data">Data:</label><br>
+		<input type="date" id="data" name="data"><br><br>
+
+		
+
+		<label for="serviciu">Serviciu:</label><br>
+		<select id="serviciu" name="serviciu">
+			<option value="Schimb ulei">Schimb ulei</option>
+			<option value="Schimb distributie">Schimb distributie</option>
+			<option value="Schimb ulei frane ">Schimb ulei frane</option>
+			<option value="Schimb placute+discuri">Schimb plăcuțe + discuri</option>
+			<option value="Schimb Placute">Schimb Placute</option>
+			<option value="Altele">Altele</option>
+
+
+		</select><br><br>
+
+
+
+		<label for="model">Model</label><br>
+		<select id="model" name="model">
+			<option value="Seria 1/2/3">Seria 1/2/3</option>
+			<option value="Seria 4/5">Seria 4/5>
+			<option value="Seria 6/7/8">Seria 6/7/8</option>
+			<option value="X1/X2">X1/X2</option>
+			<option value="X3/X4">X3/X4</option>
+			<option value="X5/X6">X5/X6</option>
+			<option value="X7">X7</option>
+			<option value="Altul">Altul</option>
+
+
+
+		</select><br><br>
+		<div class="info-container">
+			<h2>Termeni si conditii</h2>
+			<ul>
+			  <li>Data aleasa reprezinta o zi pe care o preferati Dvs. si nu este stabilita pana cand nu este verificata de receptia service-ului</li>
+			  <li>Dupa completarea acestui formular o sa fiti contactat in cel mai scurt timp de echipa noastra pentru o programare exacata, cand ne puteti explica de ce tip de servicii aveti nevoie</li>
+			  <li>Plata se face la finalizarea serviciilor efectuate</li>
+			</ul>
+			<div class="checkbox-container">
+			  <input type="checkbox" id="accept-terms" (change)="ShowSendBtn">
+			  <label for="accept-terms">Am luat la cunostiinta si accept termenii si conditiile</label>
+			</div>
+		  </div>
+		  <br>
+
+		 
+	</form>
+	<br>
+	<button  *ngIf="ShowSendBtn===false"  type="submit" id="submit" (click)="getData()">Trimite</button>
+<br>
+<br>
+
+
+	<footer>
+		<div class="container">
+		   <p>&copy; 2023 Service Auto BMW. Toate drepturile rezervate.</p>
+		</div>
+	 </footer>
+	 
+
+	 
+
+</section>
+
+
+
+
+
+	
+ 
+
+
+ 
+
+ 

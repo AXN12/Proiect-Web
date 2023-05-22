@@ -1,0 +1,19 @@
+.mystyle {
+    width: auto;
+    height: auto;
+    
+    padding: 25px;
+  
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    background: linear-gradient(to bottom right, 
+    #1c4ba2 0%, #1c4ba2 33.33%, 
+    #10254b 33.33%, #10254b 66.66%, 
+    #DC1E2D 66.66%, #DC1E2D 100%);
+;
+}
+
+
+
+

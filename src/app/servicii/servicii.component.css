@@ -1,0 +1,433 @@
+.example-button-row{
+    color: brown;
+    
+  }
+  
+  header{
+    color: aquamarine;
+  }
+
+
+  header h1 {
+    font-family: 'Montserrat', sans-serif; /* altă fontă */
+    font-weight: 700; /* grosime mai mare */
+    font-style: italic; /* stil italic */
+    font-size: 36px; /* dimensiune mai mare */
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+ }
+ 
+ footer p {
+    font-size: 16px;
+    margin: 0;
+    color: #ddd;
+    text-align: center;
+ }
+  
+
+ .imagine-contact {
+    background-color: #F5E6E8;
+    border: 2px solid #C77EB5;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  
+  
+ 
+
+  .contact-logo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #333;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+
+    color: #2b2525;
+  }
+  
+  /* Stilizarea celulelor tabelului */
+  td, th {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Stilizarea header-ului tabelului */
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Stilizarea randurilor alternative */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  nav {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .menu li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu li a:hover::after {
+    transform: scaleX(1);
+  }
+  
+  
+  body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #2b2525;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: larger;
+    
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid #4a4e4c;
+    border-radius: 5px;
+    
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+   
+    color: rgb(255, 255, 255);
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #791c1c;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="button"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="button"]:active {
+    background-color: #3e8e41;
+  }
+  
+  input[type="button"]:focus {
+    outline: none;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+    background-color: #ccc;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  .example-button-row{
+    color: brown;
+    
+}
+
+header{
+    color: aquamarine;
+}
+
+
+#terms-container {
+  position:center;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+
+}
+
+#terms {
+  padding: 20px;
+}
+.info-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 300px;
+  font-size: 14px;
+  height: 75%;
+}
+
+.info-container h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.info-container ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container label {
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+nav {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+    position: relative;
+  }
+
+  header h1 {
+    font-family: 'Montserrat', sans-serif; /* altă fontă */
+    font-weight: 700; /* grosime mai mare */
+    font-style: italic; /* stil italic */
+    font-size: 36px; /* dimensiune mai mare */
+  }
+  
+  
+  .menu li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position:bottom;
+    bottom: 0;
+    width: 100%;
+ }
+ 
+ footer p {
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+ }
+  
+  .menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu li a:hover::after {
+    transform: scaleX(1);
+  }
+
+
+  body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #2b2525;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: larger;
+    
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid #4a4e4c;
+    border-radius: 5px;
+    
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+   
+    color: rgb(255, 255, 255);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #791c1c;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+input[type="button"]:active {
+    background-color: #3e8e41;
+}
+
+input[type="button"]:focus {
+    outline: none;
+}
+
+.error {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.disclaimer {
+  font-size: 16px;
+  font-weight: bold;
+  color: #c9c9c9;
+  margin: 20px 0;
+  text-align: justify;
+}
+
+
+
+
+  
+  
+  

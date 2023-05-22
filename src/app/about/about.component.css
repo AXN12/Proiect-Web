@@ -1,0 +1,208 @@
+.example-button-row{
+    color: brown;
+    
+  }
+  
+  header{
+    color: aquamarine;
+  }
+
+
+  header h1 {
+    font-family: 'Montserrat', sans-serif; /* altă fontă */
+    font-weight: 700; /* grosime mai mare */
+    font-style: italic; /* stil italic */
+    font-size: 36px; /* dimensiune mai mare */
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+ }
+ 
+ footer p {
+    font-size: 16px;
+    margin: 0;
+    color: #ddd;
+    text-align: center;
+ }
+  
+
+ .imagine-contact {
+    background-color: #F5E6E8;
+    border: 2px solid #C77EB5;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  
+  
+  
+  
+ 
+
+  .contact-logo {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #1e5c13;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #f8f0f0;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ddd;
+
+    color: #2b2525;
+  }
+  
+  /* Stilizarea celulelor tabelului */
+  td, th {
+    padding: 8px;
+    border: 2px solid #191818;
+    text-align: left;
+    background-color: #cdc8c8;
+  }
+  
+  /* Stilizarea header-ului tabelului */
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Stilizarea randurilor alternative */
+  tr:nth-child(even) {
+    background-color: #cdc8c8;
+  }
+  nav {
+    background-color: #333;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin: 0 10px;
+    position: relative;
+  }
+  
+  .menu li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu li a:hover::after {
+    transform: scaleX(1);
+  }
+  
+  
+  body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #2b2525;
+    background: linear-gradient(45deg, #0072C6, #C83232, #FFA400);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: larger;
+    
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border: 1px solid #4a4e4c;
+    border-radius: 5px;
+    
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+   
+    color: rgb(255, 255, 255);
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #791c1c;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="button"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
+  input[type="button"]:active {
+    background-color: #3e8e41;
+  }
+  
+  input[type="button"]:focus {
+    outline: none;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
